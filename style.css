@@ -1,0 +1,74 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;700");
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  color: orange;
+  background-color: rgb(255, 255, 255);
+}
+.link {
+  color: rgb(159, 159, 205);
+  background-color: #6B72E1;
+
+  display: block;
+  text-align: center;
+  padding: 15px 15px;
+  width: 100px;
+  margin: 0 auto;
+  border-radius: 15px;
+}
+
+a {
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+  color: #6B72E1;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+a:hover {
+  text-decoration: none;
+  color: black;
+}
+
+h1 {
+  color: red;
+  text-align: center;
+}
+
+h2 {
+  color: green;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+
+.container {
+  width: 500px;
+  margin: 0 auto;
+  background-color: bisque;
+}
+.profile-image {
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 30px;
+  list-style: none;
+  padding-left: 0px;
+}
+.card {
+text-align: center;
+background-color: azure;
+padding: 40px;
+box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+border-radius: 4px;
+margin: 20px 0px
+}
+
+i {
+  font-size: 50px;
+}
